@@ -2,6 +2,8 @@
 ## SSL & Kerberos
 run.sh
 ```bash
+kinit
+
 java \
   -cp uber-solr-ssl-kerberos-1.0-SNAPSHOT.jar \
   -Djavax.net.ssl.trustStore=./solr.jks -Djavax.net.ssl.trustStorePassword=changeit \
