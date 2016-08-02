@@ -7,4 +7,5 @@
    * [Apache Solr](examples/apache_solr.md)
    * [Apache Spark](examples/apache_spark.md)
    * Curl
+   * Java
 
