@@ -1,5 +1,5 @@
 # Apache Solr
-## SSL & Kerberos
+## Java - SSL & Kerberos
 run.sh
 ```bash
 kinit
