@@ -1,4 +1,4 @@
 # Summary
 
-* Examples
+* [Examples](examples/examples.md)
 
