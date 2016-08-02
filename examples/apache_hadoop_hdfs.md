@@ -5,6 +5,7 @@ kinit
 
 hdfs dfs -ls
 ```
+
 ## Java
 run.sh
 ```bash
