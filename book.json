@@ -1,1 +1,34 @@
-{}
+{
+  "gitbook": ">=2.0.0" ,
+  "title": "Hadoop: Tips and Tricks",
+  "description": "A collections of tips and tricks related to Hadoop, specifically secure clusters.",
+  "variables": {
+        "author":"Kevin Risden",
+        "title": "Hadoop: Tips and Tricks",
+    },
+    "plugins": [
+      "autocover",
+      "katex",
+      "printlinks",
+      "include-codeblock"],
+    "pluginsConfig": {
+        
+    },
+    "pdf": {
+        "pageNumbers": true,
+        "fontSize": 11,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        },
+
+        "comment-1":"//Header HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.",
+        "headerTemplate-off": "_TITLE_",
+
+        "comment":"//Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.",
+        "footerTemplate-off": "_PAGENUM_"
+    }
+}
