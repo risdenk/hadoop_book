@@ -1,4 +1,12 @@
 # Apache HBase
+## CLI
+```bash
+kinit
+
+hbase shell
+```
+
+## Java
 run.sh
 ```bash
 kinit
