@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Examples](examples/README.md)
-   * Solr
+   * [Solr](examples/solr.md)
 
