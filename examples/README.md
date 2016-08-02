@@ -26,7 +26,7 @@ java \
 ```
 
 ### Kerberos
-```
+```bash
 java \
   ... \
   -Djava.security.auth.login.config=PATH_TO_JAAS.conf  \
