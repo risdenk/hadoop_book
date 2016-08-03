@@ -1,8 +1,8 @@
 # Java
 ## SSL
-Unsigned Certificate
+This is required for self-signed or internally signed certificates. Another option is to modify `cacerts` for the Java installation.
 
-### Generate Truststore
+### Add Certificate to a Truststore
 ```bash
 openssl s_client -showcerts -connect ${SSLHOST}:${SSLPORT} </dev/null 2>/dev/null > ${SSLHOST}.crt
 keytool -import -keystore ${TRUSTSTORE_PATH}.jks -file ${SSLHOST}.crt -storepass changeit -alias $SSLHOST -noprompt
