@@ -1,6 +1,6 @@
 # Java
 ## SSL
-This is required for self-signed or internally signed certificates. Another option is to modify `cacerts` for the Java installation.
+This is required for self-signed or internally signed certificates. Another option is to change `cacerts` for the Java installation.
 
 ### Add Certificate to a Truststore
 ```bash
