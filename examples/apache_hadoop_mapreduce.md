@@ -2,9 +2,9 @@
 
 ## Specifying Truststore
 There are 3 JVMs for which the truststore must be specified:
-* client
-* map
-* reduce
+* Client
+* Map
+* Reduce
 
 For the client JVM, this is accomplished with standard Java properties (`-D`). Map and reduce JVMs run on different machines in the cluster. The `-files` argument ensures that the JKS is copied out to the proper cluster nodes. The `mapreduce.[map|reduce].java.opts` argument specifies the truststore properties on the map and reduce JVMs.
 
