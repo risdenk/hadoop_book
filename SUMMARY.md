@@ -8,4 +8,5 @@
    * [Apache HBase](examples/apache_hbase.md)
    * [Apache Solr](examples/apache_solr.md)
    * [Apache Spark](examples/apache_spark.md)
+   * Apache Hadoop - MapReduce
 
