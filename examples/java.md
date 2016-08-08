@@ -48,7 +48,7 @@ Client {
   com.sun.security.auth.module.Krb5LoginModule required
   useTicketCache=false
   useKeyTab=true
-  principal="example@REALM.COM"
+  principal="principal@EXAMPLE.COM"
   keyTab="PATH_TO_KEYTAB.keytab"
   renewTicket=true
   storeKey=true;
