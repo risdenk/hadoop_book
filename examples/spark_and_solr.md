@@ -174,18 +174,18 @@ public class SparkSolrKerberos {
 
 run.sh
 ```bash
-export SPARK_OPTS="-Djavax.net.ssl.trustStore=./TRUSTSTORE.jks -Djavax.net.ssl.trustStorePassword=changeit -Djava.security.auth.login.config=./JAAS.conf"
+export SPARK_OPTS="-Djavax.net.ssl.trustStore=./${TRUSTSTORE}.jks -Djavax.net.ssl.trustStorePassword=${TRUSTSTORE_PASSWORD} -Djava.security.auth.login.config=./JAAS.conf"
 
 spark-submit \
   --verbose \
   --master yarn \
   --deploy-mode client \
-  --files TRUSTSTORE.jks#TRUSTSTORE.jks,JAAS.conf#JAAS.conf,v.keytab#v.keytab \
-  --driver-java-options "-Djavax.net.ssl.trustStore=./TRUSTSTORE.jks -Djavax.net.ssl.trustStorePassword=changeit -Djava.security.auth.login.config=./JAAS.conf" \
-  --conf "spark.executor.extraJavaOptions=-Djavax.net.ssl.trustStore=./TRUSTSTORE.jks -Djavax.net.ssl.trustStorePassword=changeit -Djava.security.auth.login.config=./JAAS.conf" \
+  --files ${TRUSTSTORE}.jks#${TRUSTSTORE}.jks,JAAS.conf#JAAS.conf,v.keytab#v.keytab \
+  --driver-java-options "-Djavax.net.ssl.trustStore=./${TRUSTSTORE}.jks -Djavax.net.ssl.trustStorePassword=${TRUSTSTORE_PASSWORD} -Djava.security.auth.login.config=./JAAS.conf" \
+  --conf "spark.executor.extraJavaOptions=-Djavax.net.ssl.trustStore=./${TRUSTSTORE}.jks -Djavax.net.ssl.trustStorePassword=${TRUSTSTORE_PASSWORD} -Djava.security.auth.login.config=./JAAS.conf" \
   --class "SparkSolrKerberos" \
   uber-solr-ssl-kerberos-1.0-SNAPSHOT.jar \
-  "HDFS_PATH" "zk1.fqdn.com,zk2.fqdn.com,zk3.fqdn.com/solr" "COLLECTION"
+  "${HDFS_PATH}" "zk1.fqdn.com,zk2.fqdn.com,zk3.fqdn.com/solr" "${COLLECTION}"
 ```
 
 JAAS.conf
