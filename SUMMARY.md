@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Maven Dependencies
+* [Maven Dependencies](maven_dependencies.md)
 * [Examples](examples/README.md)
    * [Curl](examples/curl.md)
    * [Java](examples/java.md)
