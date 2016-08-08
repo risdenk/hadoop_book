@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Tidbits
 * [Java - Maven Dependencies](java_maven_dependencies.md)
 * [Kerberos Debugging](kerberos_debugging.md)
 * [Examples](examples/README.md)
