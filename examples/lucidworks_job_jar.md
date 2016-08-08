@@ -1,6 +1,6 @@
 # Lucidworks Job Jar
 
-## 
+## SSL and Kerberos
 ```
 hadoop jar
 -files ./TRUSTSTORE.jks,./JAAS.conf,./EXAMPLE.keytab
@@ -10,6 +10,7 @@ hadoop jar
 -Dlww.jaas.appname=SolrJClient
 ...
 ```
+
 JAAS.conf
 ```
 SolrJClient {
