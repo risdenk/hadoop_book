@@ -10,7 +10,7 @@
    * [Apache Hadoop - MapReduce](examples/apache_hadoop_mapreduce.md)
    * [Apache HBase](examples/apache_hbase.md)
    * [Apache Hive](examples/apache_hive.md)
-   * Apache Kafka
+   * [Apache Kafka](examples/apache_kafka.md)
    * [Apache Solr](examples/apache_solr.md)
        * [Lucidworks - Hadoop Job Jar](examples/lucidworks_hadoop_job_jar.md)
    * [Apache Spark](examples/apache_spark.md)
