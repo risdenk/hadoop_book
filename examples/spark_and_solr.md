@@ -1,4 +1,6 @@
 # Spark and Solr
+* https://github.com/lucidworks/spark-solr/
+
 Need: https://github.com/lucidworks/spark-solr/issues/79
 
 pom.xml
