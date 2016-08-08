@@ -33,3 +33,24 @@ java \
 ### JAAS
 * https://docs.oracle.com/javase/8/docs/technotes/guides/security/jaas/JAASRefGuide.html
 * https://steveloughran.gitbooks.io/kerberos_and_hadoop/content/sections/jaas.html
+
+#### Ticket Cache
+```
+Client {
+  com.sun.security.auth.module.Krb5LoginModule required
+  useTicketCache=true;
+};
+```
+
+#### Keytab
+```
+Client {
+  com.sun.security.auth.module.Krb5LoginModule required
+  useTicketCache=false
+  useKeyTab=true
+  principal="example@REALM.COM"
+  keyTab="PATH_TO_KEYTAB.keytab"
+  renewTicket=true
+  storeKey=true;
+};
+```
