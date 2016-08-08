@@ -6,7 +6,7 @@
 * [Examples](examples/README.md)
    * [Curl](examples/curl.md)
    * [Java](examples/java.md)
-   * Kerberos
+   * [Kerberos](examples/kerberos.md)
    * [Apache Hadoop - HDFS](examples/apache_hadoop_hdfs.md)
    * [Apache Hadoop - MapReduce](examples/apache_hadoop_mapreduce.md)
    * [Apache HBase](examples/apache_hbase.md)
