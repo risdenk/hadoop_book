@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Java - Maven Dependencies](java_maven_dependencies.md)
+* Kerberos Debugging
 * [Examples](examples/README.md)
    * [Curl](examples/curl.md)
    * [Java](examples/java.md)
@@ -16,5 +17,4 @@
        * [Spark and HBase](examples/spark_and_hbase.md)
        * [Spark and Kafka](examples/spark_and_kafka.md)
        * [Spark and Solr](examples/spark_and_solr.md)
-* Kerberos Debugging
 
