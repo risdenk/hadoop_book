@@ -9,7 +9,7 @@ Some random tidbits of information captured along the way per components in a Ha
   * `hive` cli avoids all authorization checks
 
 ## HBase
-*  
+* Region server failure can cause 10s of seconds of downtime when configured with the default settings.
 
 ## Ranger
 * Adding/removing users/groups from Ranger doesn't change users/groups on the cluster.
