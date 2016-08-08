@@ -1,25 +1,12 @@
 # Apache Solr
 ## Java - SSL & Kerberos
-solr-client-jaas.conf
-```
-SolrJClient {
-  com.sun.security.auth.module.Krb5LoginModule required
-  useTicketCache=true;
-};
-Client {
-  com.sun.security.auth.module.Krb5LoginModule required
-  useTicketCache=true
-  serviceName="zookeeper";
-};
-```
-
 run.sh
 ```bash
 kinit
 
 java \
   -cp uber-solr-ssl-kerberos-1.0-SNAPSHOT.jar \
-  -Djavax.net.ssl.trustStore=./solr.jks -Djavax.net.ssl.trustStorePassword=changeit \
+  -Djavax.net.ssl.trustStore=./${TRUSTSTORE_PATH}.jks -Djavax.net.ssl.trustStorePassword=${TRUSTSTORE_PASSWORD} \
   -Djava.security.auth.login.config=./solr-client-jaas.conf \
   SolrSSLKerberosExample \
   "zk1.fqdn.com,zk2.fqdn.com,zk3.fqdn.com/solr" COLLECTION
