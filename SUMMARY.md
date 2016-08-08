@@ -12,4 +12,5 @@
    * [Apache Spark](examples/apache_spark.md)
        * [Spark and HBase](examples/spark_and_hbase.md)
        * [Spark and Kafka](examples/spark_and_kafka.md)
+       * Spark and HDFS
 
