@@ -1,5 +1,29 @@
 # Spark and Kafka
 ## Spark & Kafka - Kerberos
+spark-kafka.jaas
+```
+KafkaClient {
+  com.sun.security.auth.module.Krb5LoginModule required
+  useTicketCache=false
+  useKeyTab=true
+  principal="example@REALM.com"
+  keyTab="v.keytab"
+  renewTicket=true
+  storeKey=true
+  serviceName="kafka";
+};
+Client {
+  com.sun.security.auth.module.Krb5LoginModule required
+  useTicketCache=false
+  useKeyTab=true
+  principal="example@REALM.com"
+  keyTab="v.keytab"
+  renewTicket=true
+  storeKey=true
+  serviceName="zookeeper";
+};
+```
+
 ### Read
 run.sh
 ```bash
