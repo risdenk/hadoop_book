@@ -1,6 +1,6 @@
 # Apache Hadoop - MapReduce
 
-## Specifying Truststore
+## Specifying a SSL Truststore
 There are 3 JVMs for which the truststore must be specified:
 * Client
 * Map
