@@ -6,6 +6,7 @@
 * [Examples](examples/README.md)
    * [Curl](examples/curl.md)
    * [Java](examples/java.md)
+   * Kerberos
    * [Apache Hadoop - HDFS](examples/apache_hadoop_hdfs.md)
    * [Apache Hadoop - MapReduce](examples/apache_hadoop_mapreduce.md)
    * [Apache HBase](examples/apache_hbase.md)
@@ -18,5 +19,4 @@
        * [Spark and HBase](examples/spark_and_hbase.md)
        * [Spark and Kafka](examples/spark_and_kafka.md)
        * [Spark and Solr](examples/spark_and_solr.md)
-   * Kerberos
 
