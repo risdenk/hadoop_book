@@ -1,5 +1,18 @@
 # Apache Solr
 ## Java - SSL & Kerberos
+solr-client-jaas.conf
+```
+SolrJClient {
+  com.sun.security.auth.module.Krb5LoginModule required
+  useTicketCache=true;
+};
+Client {
+  com.sun.security.auth.module.Krb5LoginModule required
+  useTicketCache=true
+  serviceName="zookeeper";
+};
+```
+
 run.sh
 ```bash
 kinit
