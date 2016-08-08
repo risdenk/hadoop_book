@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Java - Maven Dependencies](java_maven_dependencies.md)
-* Kerberos Debugging
+* [Kerberos Debugging](kerberos_debugging.md)
 * [Examples](examples/README.md)
    * [Curl](examples/curl.md)
    * [Java](examples/java.md)
