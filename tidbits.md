@@ -2,7 +2,7 @@
 Some random tidbits of information captured along the way per components in a Hadoop stack.
 
 ## Ambari/Cloudera Manager
-* Make sure to follow recommendations from Ambari except when there is justification for change
+* Make sure to follow recommendations from Ambari/Cloudera Manager except when there is justification for change
 
 ## Hive
 * Use `beeline` if you want authorization to take place via Ranger/Sentry
