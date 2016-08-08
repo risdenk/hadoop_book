@@ -10,4 +10,5 @@
    * [Apache Solr](examples/apache_solr.md)
        * [Lucidworks Job Jar](examples/lucidworks_job_jar.md)
    * [Apache Spark](examples/apache_spark.md)
+       * Spark and HBase
 
