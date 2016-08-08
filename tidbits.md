@@ -11,6 +11,10 @@ Some random tidbits of information captured along the way per components in a Ha
 ## HBase
 *  
 
+## Ranger
+* Adding/removing users/groups from Ranger doesn't change users/groups on the cluster.
+  * Users and groups synced via Ranger Usersync serve only two purposes: policy auto-completion drop-downs and policy edit authorization. 
+
 ## Storm
 * Always anchor tuples when emitting to get accurate counts
 * Check that `topology.max.spout.pending` is set properly for your topology
