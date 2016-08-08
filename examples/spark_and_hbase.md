@@ -38,7 +38,7 @@ public class SparkHBaseKerberos {
   public static <K, V> void main(String[] args) throws Exception {
     System.out.println("Starting");
 
-    SparkConf sparkConf = new SparkConf().setAppName(HBaseKerberos.class.getCanonicalName());
+    SparkConf sparkConf = new SparkConf().setAppName(SparkHBaseKerberos.class.getCanonicalName());
     JavaSparkContext jsc = new JavaSparkContext(sparkConf);
 
     Configuration config = HBaseConfiguration.create();
