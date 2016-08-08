@@ -1,4 +1,5 @@
-# Lucidworks Job Jar
+# Lucidworks - Hadoop Job Jar
+* https://doc.lucidworks.com/lucidworks-hdpsearch/2.3/Guide-Jobs.html
 
 ## SSL and Kerberos
 run.sh
