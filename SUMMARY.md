@@ -8,6 +8,7 @@
    * [Apache Hadoop - HDFS](examples/apache_hadoop_hdfs.md)
    * [Apache Hadoop - MapReduce](examples/apache_hadoop_mapreduce.md)
    * [Apache HBase](examples/apache_hbase.md)
+   * Apache Hive
    * [Apache Solr](examples/apache_solr.md)
        * [Lucidworks - Hadoop Job Jar](examples/lucidworks_hadoop_job_jar.md)
    * [Apache Spark](examples/apache_spark.md)
@@ -15,5 +16,4 @@
        * [Spark and HBase](examples/spark_and_hbase.md)
        * [Spark and Kafka](examples/spark_and_kafka.md)
        * [Spark and Solr](examples/spark_and_solr.md)
-   * Apache Hive
 
