@@ -8,6 +8,6 @@
    * [Apache Hadoop - MapReduce](examples/apache_hadoop_mapreduce.md)
    * [Apache HBase](examples/apache_hbase.md)
    * [Apache Solr](examples/apache_solr.md)
-       * Lucidworks Job Jar
+       * [Lucidworks Job Jar](examples/lucidworks_job_jar.md)
    * [Apache Spark](examples/apache_spark.md)
 
