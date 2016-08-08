@@ -10,7 +10,7 @@
    * [Apache Solr](examples/apache_solr.md)
        * [Lucidworks Job Jar](examples/lucidworks_job_jar.md)
    * [Apache Spark](examples/apache_spark.md)
-       * Spark and HDFS
+       * [Spark and HDFS](examples/spark_and_hdfs.md)
        * [Spark and HBase](examples/spark_and_hbase.md)
        * [Spark and Kafka](examples/spark_and_kafka.md)
 
