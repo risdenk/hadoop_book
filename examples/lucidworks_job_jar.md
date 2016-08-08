@@ -1,6 +1,9 @@
 # Lucidworks Job Jar
 
 ## SSL and Kerberos
+Need: https://github.com/lucidworks/spark-solr/issues/79
+
+run.sh
 ```
 hadoop jar
 -files ./TRUSTSTORE.jks,./JAAS.conf,./EXAMPLE.keytab
