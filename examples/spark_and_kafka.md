@@ -6,7 +6,7 @@ KafkaClient {
   com.sun.security.auth.module.Krb5LoginModule required
   useTicketCache=false
   useKeyTab=true
-  principal="example@REALM.com"
+  principal="principal@EXAMPLE.COM"
   keyTab="v.keytab"
   renewTicket=true
   storeKey=true
@@ -16,7 +16,7 @@ Client {
   com.sun.security.auth.module.Krb5LoginModule required
   useTicketCache=false
   useKeyTab=true
-  principal="example@REALM.com"
+  principal="principal@EXAMPLE.COM"
   keyTab="v.keytab"
   renewTicket=true
   storeKey=true
