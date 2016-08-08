@@ -5,9 +5,9 @@
 run.sh
 ```
 hadoop jar
--files ./TRUSTSTORE.jks,./JAAS.conf,./EXAMPLE.keytab
--Dlww.truststore=./TRUSTSTORE.jks
--Dlww.truststore.password=TRUSTSTORE_PASSWORD
+-files ./${TRUSTSTORE}.jks,./JAAS.conf,./EXAMPLE.keytab
+-Dlww.truststore=./${TRUSTSTORE}.jks
+-Dlww.truststore.password=${TRUSTSTORE_PASSWORD}
 -Dlww.jaas.file=./JAAS.conf
 -Dlww.jaas.appname=SolrJClient
 ...
