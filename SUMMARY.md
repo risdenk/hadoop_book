@@ -19,5 +19,5 @@
        * [Spark and HBase](examples/spark_and_hbase.md)
        * [Spark and Kafka](examples/spark_and_kafka.md)
        * [Spark and Solr](examples/spark_and_solr.md)
-* Tidbits
+* [Tidbits](tidbits.md)
 
