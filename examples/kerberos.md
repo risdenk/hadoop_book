@@ -29,7 +29,8 @@ add_entry -password -p principal@EXAMPLE.COM -k 3 -e aes256-cts-hmac-sha1-96
 write_kt
 quit
 ```
-Available Encryption Types
+
+#### Available Encryption Types
 ```
 aes256-cts-hmac-sha1-96
 aes128-cts-hmac-sha1-96
