@@ -26,8 +26,6 @@ ktutil
 ```
 ```
 add_entry -password -p principal@EXAMPLE.COM -k 3 -e aes256-cts-hmac-sha1-96
-add_entry -password -p principal@EXAMPLE.COM -k 3 -e aes128-cts-hmac-sha1-96
-add_entry -password -p principal@EXAMPLE.COM -k 3 -e des3-cbc-sha1
 write_kt
 quit
 ```
