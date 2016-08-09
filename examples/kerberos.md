@@ -18,7 +18,7 @@ klist -e -kt ${KEYTAB}.keytab
 ```
 
 ## Keytabs
-A keytab must be treated like a password. Although it is not in clear text, someone having access to a keytab is just like having access to your password since they can then impersonate you.
+A keytab must be treated like a password. Although it is not in clear text, having access to a keytab is the same as having your password since they can then impersonate you.
 
 ### Manually Creating Keytab (w/ password)
 ```bash
