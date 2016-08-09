@@ -28,5 +28,5 @@ beeline -u 'jdbc:hive2://${BEELINE_HOST}:${BEELINE_PORT}/;ssl=true;sslTrustStore
 ```bash
 kinit
 
-beeline -u 'jdbc:hive2://${BEELINE_HOST}:${BEELINE_PORT}/;transportMode=http;httpPath=cliservice;principal=hive/_HOST@EXAMPLE.COM;ssl=true;sslTrustStore=${TRUSTSTORE}.jks;trustStorePassword=${TRUSTSTORE_PASSWORD}'
+beeline -u 'jdbc:hive2://${BEELINE_HOST}:${BEELINE_PORT}/;principal=hive/_HOST@EXAMPLE.COM;ssl=true;sslTrustStore=${TRUSTSTORE}.jks;trustStorePassword=${TRUSTSTORE_PASSWORD}'
 ```
