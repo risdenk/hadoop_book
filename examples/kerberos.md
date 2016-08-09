@@ -53,7 +53,7 @@ For machine accounts this salting principal is
    DOMAIN_NAME := name of AD domain name in uppercase 
 ```
 
-For user accounts this salting principal is username@DOMAIN_NAME 
+For user accounts this salting principal is `username@DOMAIN_NAME`
 ```
 username := first component of userPrincipalname or sAMAccountName if userPrincipalname attribute is not set
 ```
