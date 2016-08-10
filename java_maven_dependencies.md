@@ -1,6 +1,7 @@
 # Java - Maven Dependencies
 
 ## Hortonworks
+* https://community.hortonworks.com/articles/43727/hortonworks-data-platform-development-guide.html
 * http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.1.15/bk_user-guide/content/user-guide-setup-maven-repo.html
 * https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.4.2/bk_installing_manually_book/content/ch01s13.html
 * https://community.hortonworks.com/questions/626/how-do-i-resolve-maven-dependencies-for-building-a.html
