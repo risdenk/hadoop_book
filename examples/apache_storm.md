@@ -3,7 +3,7 @@
 ## Viewing Logs
 Storm has authorization related to viewing logs. The log viewers are configured per topology instead of at the cluster level.
 
-By default, only the user who deploy the topology have access to admin operations such as rebalance, activate, deactivate, and kill.
+By default, only the user who deploys the topology has access to admin operations such as rebalance, activate, deactivate, and kill.
 
 The following properties can be set in the topology configuration:
 
