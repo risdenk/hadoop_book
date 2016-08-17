@@ -23,4 +23,5 @@
        * [Spark and Solr](examples/spark_and_solr.md)
    * [Apache Storm](examples/apache_storm.md)
        * [Storm and Solr](examples/storm_and_solr.md)
+       * Storm and Kafka
 
