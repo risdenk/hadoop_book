@@ -21,4 +21,5 @@
        * [Spark and Kafka](examples/spark_and_kafka.md)
        * [Spark and Solr](examples/spark_and_solr.md)
    * [Apache Storm](examples/apache_storm.md)
+   * Apache Knox
 
