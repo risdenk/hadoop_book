@@ -1,7 +1,7 @@
 # Spark and Solr
 * https://github.com/lucidworks/spark-solr/
 
-Need: https://github.com/lucidworks/spark-solr/issues/79
+**Need spark-solr 2.1.0 or greater due to https://github.com/lucidworks/spark-solr/issues/79**
 
 run.sh
 ```bash
@@ -62,7 +62,7 @@ pom.xml
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <spark.version>1.6.1</spark.version>
-        <spark-solr.version>2.0.4</spark-solr.version>
+        <spark-solr.version>2.1.0</spark-solr.version>
         <solr.version>5.5.2</solr.version>
         <commons-codec.version>1.10</commons-codec.version>
     </properties>
