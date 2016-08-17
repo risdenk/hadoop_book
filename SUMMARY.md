@@ -13,6 +13,7 @@
    * [Apache HBase](examples/apache_hbase.md)
    * [Apache Hive](examples/apache_hive.md)
    * [Apache Kafka](examples/apache_kafka.md)
+   * Apache Knox
    * [Apache Solr](examples/apache_solr.md)
        * [Lucidworks - Hadoop Job Jar](examples/lucidworks_hadoop_job_jar.md)
    * [Apache Spark](examples/apache_spark.md)
@@ -21,5 +22,4 @@
        * [Spark and Kafka](examples/spark_and_kafka.md)
        * [Spark and Solr](examples/spark_and_solr.md)
    * [Apache Storm](examples/apache_storm.md)
-   * Apache Knox
 
