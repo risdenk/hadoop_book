@@ -1,6 +1,7 @@
 # Storm and Kafka
 pom.xml excerpt
 ```xml
+...
     <dependencies>
         <dependency>
             <groupId>org.apache.storm</groupId>
@@ -27,6 +28,7 @@ pom.xml excerpt
             </exclusions>
         </dependency>
     </dependencies>
+...
 ```
 
 run.sh
