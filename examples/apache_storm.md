@@ -48,19 +48,13 @@ class MySpout implements IRichSpout {
   }
 
   @Override
-  public void close() {
-
-  }
+  public void close() {}
 
   @Override
-  public void activate() {
-
-  }
+  public void activate() {}
 
   @Override
-  public void deactivate() {
-
-  }
+  public void deactivate() {}
 
   @Override
   public void nextTuple() {
@@ -71,14 +65,10 @@ class MySpout implements IRichSpout {
   }
 
   @Override
-  public void ack(Object o) {
-
-  }
+  public void ack(Object o) {}
 
   @Override
-  public void fail(Object o) {
-
-  }
+  public void fail(Object o) {}
 
   @Override
   public Map<String, Object> getComponentConfiguration() {
