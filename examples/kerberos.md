@@ -40,6 +40,7 @@ des-cbc-crc
 ```
 #### ktutil and Active Directory
 * http://kerberos.996246.n3.nabble.com/ktutil-problems-generating-AES-keys-salt-tp41104p41129.html
+* http://mailman.mit.edu/pipermail/kerberos/2015-July/020908.html
 
 You cannot specify the salt when using ktutil. What you need to do 
 instead is to specify exactly the same principal that AD uses as salt. 
