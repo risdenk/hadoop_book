@@ -42,7 +42,7 @@ Client {
 };
 ```
 
-Certain cluster installations may choose different server principal name for zookeeper service then "zookeeper/server.FQN@REALM".
+Certain cluster installations may choose different server principal name for zookeeper service rather then "zookeeper/server.FQN@REALM".
 If this is the case, specify this property in jvm:
 ```
 -Dzookeeper.sasl.client.username=NEW_ZOOKEEPER_SERVICE_NAME
