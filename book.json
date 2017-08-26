@@ -22,5 +22,10 @@
 
     "comment":"//Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.",
     "footerTemplate-off": "_PAGENUM_"
-  }
+  },
+  "plugins": [
+    "theme-faq",
+    "-fontsettings",
+    "-sharing"
+  ]
 }
